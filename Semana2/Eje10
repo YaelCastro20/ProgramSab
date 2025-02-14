@@ -1,0 +1,4 @@
+texto = input("Ingrese una cadena de texto: ")
+texto_invertido = texto[::-1]  
+
+print(f"La cadena invertida es: {texto_invertido}")

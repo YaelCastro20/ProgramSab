@@ -1,0 +1,18 @@
+num = int(input("Ingrese un número: "))
+
+if num > 1:
+    es_primo = True
+    divisor = 2
+
+    while divisor * divisor <= num:
+        if num % divisor == 0:
+            es_primo = False
+            break
+        divisor += 1
+
+    if es_primo:
+        print(f"{num} es un número primo.")
+    else:
+        print(f"{num} no es un número primo.")
+else:
+    print("El número debe ser mayor que 1.")

@@ -1,0 +1,5 @@
+numero = input("Ingrese un número entero: ")
+
+suma = sum(int(digit) for digit in numero if digit.isdigit()) 
+
+print(f"La suma de los dígitos es: {suma}")

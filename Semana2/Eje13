@@ -1,0 +1,6 @@
+texto = input("Ingrese una cadena de texto: ")
+caracter = input("Ingrese el carácter a buscar: ")
+
+contador = texto.count(caracter)  
+
+print(f"El carácter '{caracter}' aparece {contador} veces en la cadena.")

@@ -1,0 +1,6 @@
+numeros = input("Ingrese números separados por espacios: ").split()  
+numeros = [int(num) for num in numeros]  
+
+suma = sum(numeros)  
+
+print(f"La suma de los números ingresados es: {suma}")

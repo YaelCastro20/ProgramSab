@@ -1,0 +1,4 @@
+texto = input("Ingrese una cadena de texto: ").strip()  
+palabras = texto.split()  
+
+print(f"El número de palabras en la cadena es: {len(palabras)}")

@@ -1,0 +1,7 @@
+import random
+
+n = int(input("Ingrese la cantidad de números aleatorios a generar: "))
+
+numeros_aleatorios = [random.randint(1, 100) for _ in range(n)] 
+
+print(f"La lista de números aleatorios es: {numeros_aleatorios}")

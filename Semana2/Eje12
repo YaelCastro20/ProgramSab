@@ -1,0 +1,6 @@
+numeros = input("Ingrese números separados por espacios: ").split()  
+numeros = [int(num) for num in numeros]  
+
+numeros.sort()  
+
+print(f"La lista ordenada es: {numeros}")
