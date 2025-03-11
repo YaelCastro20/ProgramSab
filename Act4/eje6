@@ -1,0 +1,7 @@
+def contar_subcadena(texto, subcadena):
+    return texto.count(subcadena)
+
+
+texto = "banana banana ban"
+subcadena = "ban"
+print(contar_subcadena(texto, subcadena)) 

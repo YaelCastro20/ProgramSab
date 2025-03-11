@@ -1,0 +1,8 @@
+def contar_vocales_consonantes(palabra):
+    vocales = "aeiouAEIOU"
+    num_vocales = sum(1 for letra in palabra if letra in vocales)
+    num_consonantes = sum(1 for letra in palabra if letra.isalpha() and letra not in vocales)
+    return num_vocales, num_consonantes
+
+palabra = "Python"
+print(contar_vocales_consonantes(palabra)) 

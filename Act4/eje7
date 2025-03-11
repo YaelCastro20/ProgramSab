@@ -1,0 +1,5 @@
+def obtener_iniciales(nombre_completo):
+    return ''.join(palabra[0].upper() for palabra in nombre_completo.split())
+
+nombre = "Yael Isai Galeana"
+print(obtener_iniciales(nombre))

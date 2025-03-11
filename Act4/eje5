@@ -1,0 +1,13 @@
+def cifrado_cesar(texto, desplazamiento):
+    resultado = []
+    for char in texto:
+        if char.isalpha():
+            inicio = ord('A') if char.isupper() else ord('a')
+            nuevo_char = chr(inicio + (ord(char) - inicio + desplazamiento) % 26)
+            resultado.append(nuevo_char)
+        else:
+            resultado.append(char)
+    return ''.join(resultado)
+
+texto = "Hola Mundo"
+print(cifrado_cesar(texto, 3)) 

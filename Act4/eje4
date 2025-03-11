@@ -1,0 +1,5 @@
+def eliminar_espacios_extra(cadena):
+    return ' '.join(cadena.split())
+
+cadena = "  Hola     mundo  "
+print(eliminar_espacios_extra(cadena))

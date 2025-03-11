@@ -1,0 +1,6 @@
+def ordenar_por_longitud(palabras):
+    return sorted(palabras, key=len)
+
+
+lista_palabras = ["perro", "gato", "gorila", "panda"]
+print(ordenar_por_longitud(lista_palabras))  

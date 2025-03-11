@@ -1,0 +1,5 @@
+def invertir_palabras(frase):
+    return ' '.join(palabra[::-1] for palabra in frase.split())
+
+frase = "mucho texto"
+print(invertir_palabras(frase)) 
