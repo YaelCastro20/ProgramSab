@@ -1,0 +1,6 @@
+def interseccion_conjuntos(c1, c2):
+    return c1 & c2
+
+c1 = {1, 2, 3}
+c2 = {3, 4, 5}
+print(interseccion_conjuntos(c1, c2))

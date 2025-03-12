@@ -1,0 +1,8 @@
+def suma_diagonales(matriz):
+    n = 5
+    suma_principal = sum(matriz[i][i] for i in range(n))
+    suma_secundaria = sum(matriz[i][n - 1 - i] for i in range(n))
+    return suma_principal + suma_secundaria
+
+matriz = [[i + j for j in range(5)] for i in range(5)]
+print(suma_diagonales(matriz))

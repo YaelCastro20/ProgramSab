@@ -1,0 +1,7 @@
+def matriz_ajedrez(n, m):
+    return [[(i + j) % 2 for j in range(m)] for i in range(n)]
+
+n, m = 4, 5
+matriz = matriz_ajedrez(n, m)
+for fila in matriz:
+    print(fila)
